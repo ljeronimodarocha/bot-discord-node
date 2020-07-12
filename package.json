@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --watch src/*",
-    "start": "node src/index.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
